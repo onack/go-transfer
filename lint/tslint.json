@@ -1,0 +1,75 @@
+{
+  "rules": {
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "curly": false, // Lack of braces in if-statements are allowed
+    "eofline": true,
+    "forin": true,
+    "indent": [false, "spaces"],
+    "label-position": true,
+    "label-undefined": true,
+    "max-line-length": [false, 1000],
+    "member-access": false, // default access modifier on member allowed, i.e: @ViewChild(Nav) nav: Nav;
+    "member-ordering": [true,
+      //"public-before-private",
+//      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-console": [true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace"
+    ],
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-key": true,
+    "no-duplicate-variable": true,
+    "no-empty": false, // Yes-empty
+    "no-eval": true,
+    "no-inferrable-types": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false, // object access via string literals is allowed --> ES6
+    "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": false, // some air throughout the code is allowed.
+    "no-unused-expression": true,
+    "no-unused-variable": true,
+    "no-unreachable": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "object-literal-sort-keys": false, // NO, you do not have to sort list-items alphabetically
+    "one-line": [true,
+      "check-open-brace",
+      "check-catch",
+    //   "check-else", else is NOT misplaced
+      "check-finally",
+      "check-whitespace"
+    ],
+    "quotemark": [false, "double", "avoid-escape"], // '' - quotes are allowed
+    "radix": true,
+    "semicolon": [true, "always"],
+    "trailing-comma": [false, { // We do NOT need trailing commas
+      "singleline": "never",
+      "multiline": "always"
+    }],
+    "triple-equals": [true, "allow-null-check"],
+    "typedef-whitespace": [true, {
+      "call-signature": "nospace",
+      "index-signature": "nospace",
+      "parameter": "nospace",
+      "property-declaration": "nospace",
+      "variable-declaration": "nospace"
+    }],
+    "variable-name": false,
+    "whitespace": [true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+@import "../pages/home/home";
+
+
+/******************************************************************************
+ ************************** Globally used styling *****************************
+ ******************************************************************************/
+
+
+.global-back{
+  background: black;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.splash-back{
+  background: url('splash.png') black;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.transparency{
+    background-color: transparent !important;
+}
+
+.whitecolor{
+    color: white !important;
+}
+
+.infinite-loading-text, .bar-button-default{
+  color: white;
+}
+
+ion-spinner svg{
+  stroke: white !important;
+  fill: white !important;
+}
+
+.toolbar-background {
+  background: black;
+}
+
+.toolbar-title{
+  color: #C5CD38;
+}
+
+.noborder .item-inner{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.sidemenu-profile-container{
+  width: 100% !important;
+  text-align: center !important;
+  margin-top: 64px !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0;
+  height: 100%;
+}
+
+.sidemenu-contact{
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+.sidemenu-profile-row{
+  height: 14em !important;
+}
+
+.sidemenu-profile{
+  height: 14em !important;
+  background: transparent  !important;
+}
+
+ion-menu{
+  background: black;
+}
+
+.menulist > .item:first-child, .menulist > .item:last-child {
+  border: none !important;
+}
+
