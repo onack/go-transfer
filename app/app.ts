@@ -4,7 +4,6 @@ import {Splashscreen, StatusBar} from "ionic-native";
 import {Home} from "./pages/home/home";
 import {StorageService} from "./services/storage.service";
 import {DataService} from "./services/data.service";
-import {Config} from "./config/config.ts";
 import {FORM_DIRECTIVES} from "@angular/common";
 import {Login} from "./pages/login/login";
 import {Auth} from "./auth/Auth";
@@ -51,4 +50,4 @@ export class App {
     }
 }
 
-ionicBootstrap(App, [StorageService, DataService, Config, Auth, PokemonClubAuthHandler, ApiHandler, GoogleAuthHandler], {});
+ionicBootstrap(App, [StorageService, DataService, Auth, PokemonClubAuthHandler, ApiHandler, GoogleAuthHandler], {});
